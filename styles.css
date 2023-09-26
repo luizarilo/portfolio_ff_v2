@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.introduction {
+  background: linear-gradient(to bottom right, #8B2BE2, #5004E0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-introduction {
+  color: #E5E5E5;
+  font-size: 3.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+span {
+  color: black;
+}
+
+.button-white {
+  padding: 0.5rem;
+  width: 10rem;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #E5E5E5;
+  color: #E5E5E5;
+  font-weight: 600;
+  font-size: 1.3rem;
+  background-color: transparent;
+}
+
+.button-white:hover {
+  background-position: 0;
+  background-color: #E5E5E5;
+  color: purple;
+}
+
+.arrow-down {
+  width: 100%;
+}
+
+.button-arrow {
+  border: none;
+  background-color: transparent;
+  width: 10rem;
+}
+
+.about-me, .projects {
+  height: 100vh;
+  padding: 2rem;
+}
+
+.separator {
+  width: 80%;
+  height: 0;
+  border-left: 99vw solid purple;
+  border-top: 13.9vw solid #E5E5E5;
+  margin-bottom: -13.9vw;
+}
+
+.about-me {
+  min-height: 100vh;
+  background-color: #E5E5E5;
+}
+
+.media-perfil{
+    width: 60%;
+}
+
+.media-photo, .project-info{
+    justify-content: right;
+    padding-right: 3rem;
+}
+
+.text-about{
+    font-size: 20px;
+    width: 70%;
+    padding-left: 3rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.about-button{
+    padding-left: 3rem;
+}
+
+.button-purple{
+  padding: 0.5rem;
+  width: 10rem;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid purple;
+  color: purple;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.button-purple:hover {
+    background-position: 0;
+    background-color: purple;
+    color: #E5E5E5;
+  }
+
+
+.projects h1{
+    color: #E5E5E5;
+}
+
+#projects{
+    background: linear-gradient(to bottom right, #8B2BE2, #5004E0);
+}
+
+.projects-text{
+  color: #E5E5E5;
+  font-family: "Roboto", sans-serif;
+}
+
+.projects-image{
+  width: 70%;
+}
+
+.projects-image:hover{
+  width: 75%;
+  transition: 0.5s;
+}
+
+.projects-media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-info{
+  margin-left: 15px;
+}
+
+.projects-button{
+  border: 1px solid #E5E5E5;
+  width: 30%;
+  height: 15%;
+  color: #E5E5E5;
+  font-weight: 700;
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+}
+
+.projects-button:hover{
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(229,229,229,1);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(229,229,229,1);
+  box-shadow: 0px 0px 5px 5px rgba(229,229,229,1);
+}
+
+.contact-me{
+  min-height: 50vh;
+}
+
+.text-contact{
+    font-family: "Roboto", sans-serif;
+}
+
+.contact-button{
+  padding: 0.5rem;
+  width: 10rem;
+  height: 40px;
+  border: 2px solid purple;
+  color: purple;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.contact-button:hover {
+  background-color: purple;
+  color: #E5E5E5;
+}
+
+.social-media{
+  min-height: 50vh;
+  background-color: #333333;
+}
+
+.social-button{
+  border: none;
+  background-color: transparent;
+}
+
+.linkedin-button{
+  color: #ffffff;
+  margin-right: 30px;
+}
+
+.linkedin-button:hover{
+  color: #4875B4;
+}
+
+.github-button{
+  color: #FFFFFF;
+  margin-right: 30px;
+}
+
+.github-button:hover{
+  color: black;
+}
+
+.twitter-button{
+  color: #FFFFFF;
+}
+
+.twitter-button:hover{
+  color: #00ACEE;
+}
+
+.social-text{
+  color: #E5E5E5
+}
+
+@media (max-width: 768px) {
+  .text-about{
+    width: 100%;
+  }
+
+  .about-button{
+    display: none;
+  }
+
+  .media-perfil{
+    width: 90%;
+}
+
+.introduction{
+  padding-left: 30px;
+}
+
+.projects-info{
+  width: 100%;
+  margin-bottom: 15px;
+}
+}
+
+@media (max-width: 425px) {
+
+.introduction{
+  padding-top: 30px;
+}
+
+.button-arrow{
+  display: none
+}
+
+.media-photo{
+  display: none;
+}
+
+.text-about{
+  padding-right: 20px;
+}
+
+.projects-media{
+  display: none;
+}
+
+}
