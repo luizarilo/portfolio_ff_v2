@@ -303,3 +303,19 @@ span {
     margin-top: 80px;
   }
 }
+
+@media (max-width: 375px) {
+  .projects-media {
+    margin-bottom: 20px;
+    position: absolute;
+    top: 290px;
+  }
+
+  .projects-content {
+     position: relative
+  }
+
+  .projects-button{
+    margin-top: 80px;
+  }
+}
