@@ -308,7 +308,7 @@ span {
   .projects-media {
     margin-bottom: 20px;
     position: absolute;
-    top: 290px;
+    top: 300px;
   }
 
   .projects-content {
@@ -316,6 +316,6 @@ span {
   }
 
   .projects-button{
-    margin-top: 80px;
+    margin-top: 90px;
   }
 }
