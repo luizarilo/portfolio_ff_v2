@@ -319,3 +319,31 @@ span {
     margin-top: 90px;
   }
 }
+
+@media (max-width: 320px) {
+  .projects-media {
+    margin-bottom: 20px;
+    position: absolute;
+    top: 350px;
+  }
+
+  .projects-content {
+     position: relative
+  }
+
+  .projects-button{
+    margin-top: 90px;
+  }
+
+  .text-introduction {
+    font-size: 3.0rem;
+  }
+
+  .text-about {
+    font-size: 14px;
+  }
+  .projects-button{
+    width: auto;
+    padding: 0 10px 0 10px;
+  }
+}
